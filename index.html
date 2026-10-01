@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte c'è il mezzo fermo al piede della A da asfaltare; se il codice non arriva, dopo 2,5 s la A intera */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaAstrada=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,69 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&amp;family=Krona+One&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=2" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"DrivingSchool","name":"L'Autoscuola del Viale Ungheria","alternateName":"Autoscuola Ungheria","legalName":"Ungheria di Ardolino Maria Anna e Fabio Ivan s.a.s.","foundingDate":"2001-10-29","description":"Autoscuola e agenzia di pratiche auto in Viale Ungheria 24 a Milano: patenti auto e moto, teoria in aula o online, rinnovi, pratiche auto.","url":"https://rotenzark.github.io/autoscuola-viale-ungheria/","image":"https://rotenzark.github.io/autoscuola-viale-ungheria/img/og.jpg","telephone":"+39 02 506 5281","email":"ungheria.sas@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Viale Ungheria 24","postalCode":"20138","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.44572,"longitude":9.24719},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"15:00","closes":"19:30"}],"sameAs":["https://www.facebook.com/autoscuoladelvialeungheria","https://www.instagram.com/autoscuola_del_viale_ungheria/"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"181","bestRating":"5"}}
+{
+  "@context": "https://schema.org",
+  "@type": "DrivingSchool",
+  "name": "L'Autoscuola del Viale Ungheria",
+  "alternateName": "Autoscuola Ungheria",
+  "legalName": "Ungheria di Ardolino Maria Anna e Fabio Ivan s.a.s.",
+  "foundingDate": "2001-10-29",
+  "description": "Autoscuola e agenzia di pratiche auto in Viale Ungheria 24 a Milano: patenti auto e moto, teoria in aula o online, rinnovi, pratiche auto.",
+  "url": "https://rotenzark.github.io/autoscuola-viale-ungheria/",
+  "image": "https://rotenzark.github.io/autoscuola-viale-ungheria/img/og.jpg",
+  "telephone": "+39 02 506 5281",
+  "email": "ungheria.sas@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Viale Ungheria 24",
+    "postalCode": "20138",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.44572,
+    "longitude": 9.24719
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "12:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "15:00",
+      "closes": "19:30"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/autoscuoladelvialeungheria",
+    "https://www.instagram.com/autoscuola_del_viale_ungheria/"
+  ]
+}
 </script>
 </head>
 <body>
@@ -82,7 +137,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
         <p class="apertura__frase" data-i18n="h.testo">La patente per l'auto e per la moto, la teoria in aula o online, le guide coi nostri istruttori; e poi i rinnovi e le pratiche auto. Il nostro claim: educare le persone affinché affrontino la strada.</p>
         <p class="voto"><b class="voto__n">4,9</b> <span class="voto__su" data-i18n="h.voto">su Google, 181 recensioni</span></p>
         <blockquote class="citazione">
-          <p>«Autoscuola ben organizzata sia per le lezioni di teoria che per le guide. Personale molto qualificato e sempre disponibile! In assoluto la migliore della zona»</p>
+          <p lang="it">«Autoscuola ben organizzata sia per le lezioni di teoria che per le guide. Personale molto qualificato e sempre disponibile! In assoluto la migliore della zona»</p>
           <footer data-i18n="h.chi">Michela B., in una recensione su Google</footer>
         </blockquote>
         <p class="stato" id="orarioStato">Lun–ven 9–12:30 e 15–19:30, sab 9–12:30</p>
@@ -184,12 +239,12 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Chi ha preso la patente da noi</h2>
     <p class="voto voto--sezione"><b class="voto__n">4,9</b> <span class="voto__su" data-i18n="d.voto">su Google, 181 recensioni</span></p>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«È stata un’esperienza eccezionale!!! Ho fatto tutto il percorso per la patente B con la scuola essendo incinta ed è stato veramente bellissimo, tranquillo, con calma e senza stress. ❤️Le lezioni di teoria sono stati molto utili, con tante spiegazioni molto dettagliate e possibilità di fare le domande e chiarire qualsiasi cosa senza dubbi. Ho passato tutti due esami dal primo tentativo, sia teoria che pratica. 🤩 […]»</p><p class="recensione__chi"><b>Olesia K.</b> <span data-i18n="d.t26">Google, 2026</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Ottima autoscuola: istruttori gentili, pazienti e molto preparati. Le lezioni sono chiare e l’organizzazione è efficiente. Mi sono trovato benissimo e la consiglio!»</p><p class="recensione__chi"><b>Andrea L.</b> <span data-i18n="d.t26">Google, 2026</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«I migliori, ho fatto con loro la patente b sono gli unici che durante le guide di prova ti ascoltano e ti spiegano con calma gli errori, ci tornerò sicuramente per fare la patente a2 e porterò di sicuro la mia ragazza che deve farsi la patente»</p><p class="recensione__chi"><b>Stefano W.K.</b> <span data-i18n="d.t26">Google, 2026</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Un’ottima autoscuola, con personale qualificato e molto gentile. Mi sono iscritto presso di loro per la patente A. Fabio mi ha seguito al meglio e mi ha fatto fare l’esame non appena visto che ero davvero pronto, infatti superato senza problemi. Oltre ad essere professionale è anche molto paziente. Consigliatissimo e grazie ancora ragazzi 🙏🏼🏍️»</p><p class="recensione__chi"><b>AS7 K</b> <span data-i18n="d.t25">Google, 2025</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Fin dal primo giorno ho trovato un ambiente accogliente, professionale e ben organizzato. […] Sia gli istruttori di guida che lo staff in segreteria sono sempre pronti ad aiutare, a venire incontro alle esigenze degli studenti e a trovare soluzioni pratiche per chi ha orari complicati. […]»</p><p class="recensione__chi"><b>Stefan B.</b> <span data-i18n="d.t25">Google, 2025</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Mi sono trovata benissimo: ambiente accogliente, personale disponibile e sempre pronto ad aiutare. Un ringraziamento al prof di teoria e i tre istruttori di guida, tutti molto competenti, simpatici e preparati. Ognuno ha il proprio stile e modo di insegnare che insieme formano un team davvero efficace e completo. Consiglio assolutamente questa autoscuola»</p><p class="recensione__chi"><b>Alessandra S.</b> <span data-i18n="d.t25">Google, 2025</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«È stata un’esperienza eccezionale!!! Ho fatto tutto il percorso per la patente B con la scuola essendo incinta ed è stato veramente bellissimo, tranquillo, con calma e senza stress. ❤️Le lezioni di teoria sono stati molto utili, con tante spiegazioni molto dettagliate e possibilità di fare le domande e chiarire qualsiasi cosa senza dubbi. Ho passato tutti due esami dal primo tentativo, sia teoria che pratica. 🤩 […]»</p><p class="recensione__chi"><b>Olesia K.</b> <span data-i18n="d.t26">Google, 2026</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Ottima autoscuola: istruttori gentili, pazienti e molto preparati. Le lezioni sono chiare e l’organizzazione è efficiente. Mi sono trovato benissimo e la consiglio!»</p><p class="recensione__chi"><b>Andrea L.</b> <span data-i18n="d.t26">Google, 2026</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«I migliori, ho fatto con loro la patente b sono gli unici che durante le guide di prova ti ascoltano e ti spiegano con calma gli errori, ci tornerò sicuramente per fare la patente a2 e porterò di sicuro la mia ragazza che deve farsi la patente»</p><p class="recensione__chi"><b>Stefano W.K.</b> <span data-i18n="d.t26">Google, 2026</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Un’ottima autoscuola, con personale qualificato e molto gentile. Mi sono iscritto presso di loro per la patente A. Fabio mi ha seguito al meglio e mi ha fatto fare l’esame non appena visto che ero davvero pronto, infatti superato senza problemi. Oltre ad essere professionale è anche molto paziente. Consigliatissimo e grazie ancora ragazzi 🙏🏼🏍️»</p><p class="recensione__chi"><b>AS7 K</b> <span data-i18n="d.t25">Google, 2025</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Fin dal primo giorno ho trovato un ambiente accogliente, professionale e ben organizzato. […] Sia gli istruttori di guida che lo staff in segreteria sono sempre pronti ad aiutare, a venire incontro alle esigenze degli studenti e a trovare soluzioni pratiche per chi ha orari complicati. […]»</p><p class="recensione__chi"><b>Stefan B.</b> <span data-i18n="d.t25">Google, 2025</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Mi sono trovata benissimo: ambiente accogliente, personale disponibile e sempre pronto ad aiutare. Un ringraziamento al prof di teoria e i tre istruttori di guida, tutti molto competenti, simpatici e preparati. Ognuno ha il proprio stile e modo di insegnare che insieme formano un team davvero efficace e completo. Consiglio assolutamente questa autoscuola»</p><p class="recensione__chi"><b>Alessandra S.</b> <span data-i18n="d.t25">Google, 2025</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte. La frase in alto è di un'altra allieva, sempre su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=L%27Autoscuola+del+Viale+Ungheria+Viale+Ungheria+24+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
   </section>
@@ -226,7 +281,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       </div>
     </div>
     <div class="cartina reveal">
-      <iframe title="Mappa: L'Autoscuola del Viale Ungheria, Viale Ungheria 24, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=L%27Autoscuola%20del%20Viale%20Ungheria%2C%20Viale%20Ungheria%2024%2C%2020138%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: L'Autoscuola del Viale Ungheria, Viale Ungheria 24, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=L%27Autoscuola%20del%20Viale%20Ungheria%2C%20Viale%20Ungheria%2024%2C%2020138%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=L%27Autoscuola+del+Viale+Ungheria%2C+Viale+Ungheria+24%2C+20138+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
     </div>
   </section>
 
@@ -238,7 +293,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__riga" data-i18n="f2.riga">Patenti · Rinnovi · Pratiche auto · dal 2001</p>
     <p class="piede__dove">Viale Ungheria 24, 20138 Milano · <a href="tel:+39025065281" class="intero">02 506 5281</a> · <a href="mailto:ungheria.sas@gmail.com">ungheria.sas@gmail.com</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Lunedì–venerdì 9–12:30 e 15–19:30 · sabato 9–12:30 · domenica chiuso</p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto e recensioni dalla scheda Google (ottobre 2026); le foto dalla loro Pagina Facebook e dal loro vecchio sito; la storia e le loro frasi dal loro vecchio sito e dalla loro Pagina. La A-strada l'abbiamo ridisegnata noi, dalla loro insegna.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · orari, voto e recensioni dalla scheda Google (ottobre 2026); le foto dalla loro Pagina Facebook e dal loro vecchio sito; la storia e le loro frasi dal loro vecchio sito e dalla loro Pagina. La A-strada l'abbiamo ridisegnata noi, dalla loro insegna.</p>
     <p><a class="piede__su" href="#inizio"><span data-i18n="f2.su">Torna su</span> <span class="freccia" aria-hidden="true">↑</span></a></p>
   </div>
 </footer>
@@ -253,5 +308,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
