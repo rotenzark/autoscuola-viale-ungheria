@@ -60,7 +60,7 @@
       "m.ingrandisci": "Enlarge the photo",
       "m.lightbox": "Enlarged photo",
       "m.chiudi": "Close",
-      "n.servizi": "Specialists in",
+      "n.servizi": "Services",
       "n.percorso": "The route",
       "n.sede": "Our school",
       "n.dicono": "Reviews",
